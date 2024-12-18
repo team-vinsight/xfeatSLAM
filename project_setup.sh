@@ -11,7 +11,7 @@ cd pytorch
 git submodule update --init --recursive
 git submodule sync
 # change MAX_JOBS to change number of threads 
-MAX_JOB=6 python tools/build_libtorch.py
+MAX_JOBS=6 python tools/build_libtorch.py
 cd ../..
 
 # setup g2o
